@@ -24,6 +24,8 @@ public class Variable {
 		// int, double, String, boolean
 		int var; // 선언
 		var = 3; // "값을 할당했다."
+		int var2 = 4; // 초기화(initialize)
+		
 //		int var;
 		/* 변수 선언 시 주의사항
 		 * 1. 같은 이름의 변수, 상수로 선언할 수 없다.
@@ -34,10 +36,19 @@ public class Variable {
 		 * 일반적인 변수는 반드시 초기화 해주어야 한다.
 		 * 3. 가능하면 전체 코드 상단에 모아서 선언, 초기화 해준다.
 		 * -> 선언부
-		 * */		
+		 * */
 //		ctrl, shift, alt의 일반적인 사용?
-//		화면 확대 방법
-//		
+//		ctrl => 단축키의 기본키
+//		shift => 범위, 여러개 
+//		alt => 단축키 가짓수 늘리기, 특수용도
+//		화면 확대 방법 -> ctrl + +
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
