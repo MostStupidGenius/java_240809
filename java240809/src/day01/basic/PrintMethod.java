@@ -26,13 +26,32 @@ public class PrintMethod {
 //		printf
 //		전달된 텍스트의 포맷에 맞게 값을 배치하여
 //		출력해준다.
+//		서식문자를 활용하여 넣고자 하는 값을 서식문자가 위치한
+//		자리에 입력되게끔 할 수 있다.
+//		서식문자의 종류
+//		- %s : String(문자열)
+//		- %c : char(문자)
+//		- %d : int(정수)
+//		- %f : float, double(실수)
+		System.out.println("\n============");
+		System.out.printf(
+				"%-5s는\tString값\n"
+				+ "%c는\tchar값\n"
+				+ "%3d는\tint값\n"
+				+ "%.2f는\tfloat값\n"
+				, "문자열"
+				, 'c'
+				, 30
+				, 3.5);
 		
-		
-		
-		
-		
-		
+		System.out.printf("%d원%d\n", 3000, 2000+1000);
+		System.out.println(3000 + "원" + (2000+1000));
 		
 	}
 
 }
+
+
+
+
+
