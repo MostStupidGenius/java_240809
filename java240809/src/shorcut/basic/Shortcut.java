@@ -1,5 +1,6 @@
 package shorcut.basic;
 
+
 public class Shortcut {
 
 	public static void main(String[] args) {
@@ -47,6 +48,10 @@ public class Shortcut {
 		
 		// 클래스, 패키지 등을 추가할 때 사용하는 드롭박스 단축키
 		// alt + Shift + n
+		
+		// 변수와 같이 여러번 쓰이는 대상의 이름을 일괄적으로 변경
+		// (rename의 r을 단축키로 쓴다.)
+		// alt + Shift + r
 		
 		// 텍스트 에디터 단축키
 		// Home
