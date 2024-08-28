@@ -24,40 +24,34 @@ public class ForPractice {
 		  *
 		  
 		 */
-		int height = 7;
-		int half = height / 2;
-		for (int i = 0; i <= half; i++) {
-			System.out.println("*".repeat(i+1));
-		}
-		for (int i = half; i > 0; i--) {
-			System.out.println("*".repeat(i));
-		}
-		
-		
+//		int height = 7;
+//		int half = height / 2;
+//		for (int i = 0; i <= half; i++) {
+//			System.out.println("*".repeat(i+1));
+//		}
+//		for (int i = half; i > 0; i--) {
+//			System.out.println("*".repeat(i));
+//		}
+	}
+	
+	public static void star(int height) {
 		/*
 		  
-		      *
-	         ***
-		    *****
-		     ***
-		      *
+		 *
+		 ***
+		 *****
+		 ***
+		 *
 		  
 		 * */
-		
-//		for (int i = 0; i < half+1; i++) {
-//			System.out.printf("%-"+height+"s\n", " ".repeat(half-(i+1)) + "*".repeat((i+1)*2-1));
-//		}
-//		for (int i = half+1; i > 0; i--) {
-//			System.out.printf("%-"+height+"s\n", " ".repeat(half-i) + "*".repeat(i));
-//		}
-		
-		
-		
-		
-		
-		
-		
-		
+		int half = height / 2;
+		for (int i = 0; i < half; i++) {
+			System.out.printf("%-"+height+"s\n", 
+					" ".repeat(half-(i+1)) + "*".repeat((i+1)*2-1));
+		}
+		for (int i = half-1; i > 0; i--) {
+			System.out.printf("%-"+height+1+"s\n", " ".repeat(half-i) + "*".repeat((i*2)-1));
+		}
 	}
 
 }
