@@ -9,7 +9,7 @@ public class ForPracticeDone {
 		System.out.print("정수 입력 >> ");
 		int height = sc.nextInt();
 		star(height);
-//		star2(height);
+		star2(height);
 	}
 
 	public static void star(int height) {
@@ -29,7 +29,7 @@ public class ForPracticeDone {
 	}
 	
 	public static void star2(int height) {
-//		height *= 2;
+		height *= 2;
 		// 상단 삼각형
 		for (int i = 1; i <= height / 2 + 1; i++) {
 			System.out.print(" ".repeat(height / 2 + 1 - i)); // 공백 출력
