@@ -70,7 +70,8 @@ public class Shortcut {
 		// Shift + ctrl + 방향키
 		// ctrl이 추가되면, 단어 단위로 이동한다.
 		
-		
+		// Alt + Shift + S
+		// 클래스 내에서 사용하면, 게터와 세터 등을 쉽게 만들 수 있다.
 		
 		
 		
